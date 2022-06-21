@@ -14,4 +14,9 @@ export const ModuleRoutes = {
 	animal: 'http://localhost:8092/',
 	format: 'http://localhost:8094/',
 	things: 'http://localhost:8099/',
+	similarities: 'http://localhost:8100/',
+	dogs: 'http://localhost:8101/',
+	size: 'http://localhost:8102/',
+	faces: 'http://localhost:8103/',
+	colors: 'http://localhost:8104/',
 };

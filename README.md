@@ -448,3 +448,13 @@ Inside the src directory are these files:
 -   `processRequest` - file with functions for processing requests,
 -   `PeopleDetector` - here is people detection implemented,
 -   `cascades` - directory with cascade files used in people detection.
+
+### Size, Similarities, Dogs, Faces and Color Module
+
+This modules are Flask REST servers. Contain the following:
+
+-   `/test` - directory, where test-related utils are defined,
+-   `check_json.py` - utility script for checking the validity of the JSON request,
+-   `create_app.py` - utility script for creating the Flask application,
+-   `<module_name>_module.py` - the main class responsible for the handling of the requests and running the model,
+-   `__main__.py` - the main script for the module.

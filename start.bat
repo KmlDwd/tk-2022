@@ -8,3 +8,4 @@ start "server-animal" cmd.exe /k "animal_server/env/Scripts/Activate.bat && pyth
 start "server-style" cmd.exe /k "style_server/env/Scripts/Activate.bat && python3 -m ./style_server"
 start "server-people" cmd.exe /k "cd ./people_server/build/bin && ./peopleServer.exe"
 start "server-format" cmd.exe /k "format_server/env/Scripts/Activate.bat && python3 -m ./format_server"
+start "server-color" cmd.exe /k "color_server/env/Scripts/Activate.bat && python3 -m ./color_server"
